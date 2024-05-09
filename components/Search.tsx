@@ -8,8 +8,8 @@ export default function PhoneForm() {
 
   const handleSubmit = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    const data = await getPhone(id);
-    if (data && data[0]) setPhoneData(data[0]);
+    // const data = await getPhone(id);
+    // if (data && data[0]) setPhoneData(data[0]);
   };
   return (
     <form onSubmit={handleSubmit}>
